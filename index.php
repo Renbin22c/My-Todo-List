@@ -126,8 +126,8 @@ if (
                     <i class="bi bi-square"></i>
                   </button>
                 <?php endif;?>
-                <span class="ms-2 text-decoration-line-through"><?php echo $todo['name']?></span>
                 </form>
+                <span class="ms-2 text-decoration-line-through"><?php echo $todo['name']?></span>
               </div>
               <div>
                 <form method="POST" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
